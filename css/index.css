@@ -65,8 +65,8 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
 header{
-    display: flex;
     width: 800px;
     margin: 0 auto;
     height: 100px;
@@ -137,7 +137,6 @@ header nav a {
 .middle-content .boxes .box-1 {
     background-color: teal;
 }
-
 .middle-content .boxes .box-2 {
     background-color: gold;
 }
@@ -153,11 +152,9 @@ header nav a {
 .middle-content .boxes .box-6 {
     background-color: forestgreen;
 }
-
 .middle-content .boxes .box-7 {
     background-color: darkorchid;
 }
-
 .middle-content .boxes .box-8 {
     background-color: hotpink;
 }
@@ -167,7 +164,6 @@ header nav a {
 .middle-content .boxes .box-10 {
     background-color: dodgerblue;
 }
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
