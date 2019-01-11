@@ -65,16 +65,17 @@ p {
     line-height: 1.4;
 }
 header{
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
     height: 100px;
+    width: 80%;
     padding-top: 20px;
 }
 nav {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    width: 800px;
+    width: ;
     height: 100%;
 }
 header nav a {
@@ -82,10 +83,15 @@ header nav a {
     color: black;
     font-weight: 800;
 }
-.image-section {
-    width: 800px;
-    margin: 0 auto;
+.image-section{
+    width: 100%;
+    display: flex;
     padding-bottom: 20px;
+    justify-content: center;
+}
+.image-section img {
+    width: 80%;
+    height: 20%;
 }
 .container {
     width: 100%;
@@ -96,7 +102,7 @@ header nav a {
 }
 .about-section{
     display: flex;
-    width: 800px;
+    width: 80%;
     text-align:center;
     flex-direction: column;
     align-items: flex-start;
@@ -108,24 +114,28 @@ header nav a {
 .container .first-row {
     border-top: 1px dotted black;
     display: flex;
-    width: 800px;
+    width: 80%;
+    padding-top: 20px;
     padding-bottom: 20px;
-    
+    justify-content: space-between;
 }
 .container .second-row {
     display: flex;
-    width: 800px;
-    border-top: 1px dotted black;
+    width: 80%;
     padding-top: 20px;
+    justify-content: space-between;
 }
 .container .box-about img{
-    width: 370px;
     height: 326px;
+    width: 100%;
 }
 .box-about {
-    width: 400px;
+    width: 45%;
     display: flex;
     flex-direction: column;
+    border-bottom: 1px dotted black;
+    height: 20%;
+    padding-bottom: 20px;
 }
 .box-about .learn-more {
     border: 3px solid black;
@@ -134,4 +144,41 @@ header nav a {
     border-radius: 12px;
     padding: 10px;
     text-align: center;
+}
+
+.work-together-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+}
+.work-together-section .work-together {
+    width: 80%;
+    line-height: 1.5;
+}
+.footer-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+footer {
+    width: 80%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
 }
