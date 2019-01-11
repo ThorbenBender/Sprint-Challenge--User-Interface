@@ -79,6 +79,9 @@ nav {
     width: 800px;
     height: 100%;
 }
+nav a:first-child:hover{
+    animation: none;
+}
 nav a:hover {
 	animation-name: skale;
 	animation-duration: 3000000s;
